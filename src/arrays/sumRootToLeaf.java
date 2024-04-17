@@ -1,7 +1,6 @@
 package arrays;
 
 public class sumRootToLeaf {
-
         public int sumNumbers(TreeNode root) {
             return dfs(root, 0);
         }
